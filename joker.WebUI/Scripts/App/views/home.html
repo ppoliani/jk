@@ -1,0 +1,28 @@
+﻿<section>
+    <h2 class="page-title" data-bind="text: title"></h2>
+    
+    <section data-bind="style: { display: isConnected() ? 'none' : 'block' }">
+        <label>Insert Username</label>
+        <input type="text" data-bind="value: userName, valueUpdate: 'keyup'"/>
+        <button class="btn btn-primary" data-bind="click: connectToTheGame, css: connectGameBtnClass">Connect</button>
+    </section>
+
+    <section id="table-container" data-bind="style: { display: !isConnected() ? 'none' : 'block' }">
+        <table>
+            <thead>
+                <tr>
+                    <th>Table Name</th>
+                    <th>Password</th>
+                    <th>Active Players</th>
+                </tr>
+            </thead>
+            <tbody data-bind="delegatedHandler: 'click', foreach: activeTables">
+                <tr data-bind="delegatedClick: $parent.tableSelected">
+                    <td data-bind="text: name"></td>
+                    <td data-bind="text: hasPassword"></td>
+                </tr> 
+            </tbody>
+        </table>
+        <button id="add-table-btn" class="btn btn-primary" data-bind="click: addNewTable">Add Table</button>
+    </section>
+</section>

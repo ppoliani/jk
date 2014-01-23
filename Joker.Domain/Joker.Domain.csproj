@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{0D0DE00A-26D2-483D-B321-AD24EDCD0BC5}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Joker.Domain</RootNamespace>
+    <AssemblyName>Joker.Domain</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Entities\BoardGame\Config.cs" />
+    <Compile Include="Entities\BoardGame\Dealer.cs" />
+    <Compile Include="Entities\BoardGame\Deck.cs" />
+    <Compile Include="Entities\BoardGame\DeckOfCards\CardId.cs" />
+    <Compile Include="Entities\BoardGame\DeckOfCards\DeckBase.cs" />
+    <Compile Include="Entities\BoardGame\DeckOfCards\Extensions.cs" />
+    <Compile Include="Entities\BoardGame\DeckOfCards\Hand.cs" />
+    <Compile Include="Entities\BoardGame\DeckOfCards\ICard.cs" />
+    <Compile Include="Entities\BoardGame\DeckOfCards\ICardSet.cs" />
+    <Compile Include="Entities\BoardGame\DeckOfCards\PlayingCards\CardIdentities.cs" />
+    <Compile Include="Entities\BoardGame\DeckOfCards\PlayingCards\CardIdentity.cs" />
+    <Compile Include="Entities\BoardGame\DeckOfCards\PlayingCards\CardSuit.cs" />
+    <Compile Include="Entities\BoardGame\DeckOfCards\PlayingCards\CardSuits.cs" />
+    <Compile Include="Entities\BoardGame\DeckOfCards\PlayingCards\PlayingCard.cs" />
+    <Compile Include="Entities\BoardGame\DeckOfCards\PlayingCards\PlayingCardDeck.cs" />
+    <Compile Include="Entities\BoardGame\GameRoundInfo.cs" />
+    <Compile Include="Entities\BoardGame\GameRoundStep.cs" />
+    <Compile Include="Entities\BoardGame\GameRule.cs" />
+    <Compile Include="Entities\BoardGame\GameRulesValidator.cs" />
+    <Compile Include="Entities\BoardGame\Interfaces\IDealer.cs" />
+    <Compile Include="Entities\BoardGame\Interfaces\ITableGameController.cs" />
+    <Compile Include="Entities\BoardGame\ScoringBoard.cs" />
+    <Compile Include="Entities\Interfaces\IPlayer.cs" />
+    <Compile Include="Entities\Interfaces\IPlayingTable.cs" />
+    <Compile Include="Entities\Interfaces\IRoundScore.cs" />
+    <Compile Include="Entities\Player.cs" />
+    <Compile Include="Entities\PlayingTable.cs" />
+    <Compile Include="Entities\RoundsScore.cs" />
+    <Compile Include="Exceptions\PlayerHasAlreadyJoinedTableException.cs" />
+    <Compile Include="Exceptions\PlayerNotFoundException.cs" />
+    <Compile Include="Exceptions\TableIsFullException.cs" />
+    <Compile Include="Exceptions\TableNotFoundException.cs" />
+    <Compile Include="Exceptions\WrongTablePasswordEntered.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

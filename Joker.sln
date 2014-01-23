@@ -1,0 +1,63 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Joker.WebUI", "joker.WebUI\Joker.WebUI.csproj", "{28934825-861F-46A9-93E4-7FFE28BD2015}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Joker.WebUI.Tests", "Joker.WebUI.Tests\Joker.WebUI.Tests.csproj", "{67F750F4-E09C-4CD0-BDE5-8C529915B6E4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Joker.Domain", "Joker.Domain\Joker.Domain.csproj", "{0D0DE00A-26D2-483D-B321-AD24EDCD0BC5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Joker.Domain.Tests", "Joker.Domain.Tests\Joker.Domain.Tests.csproj", "{0226FCBB-900F-4FBF-A1FA-C5E7BE0056DC}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 4
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://boliev-pc:8080/tfs/personal%20work
+		SccProjectUniqueName0 = joker.WebUI\\Joker.WebUI.csproj
+		SccProjectName0 = joker.WebUI
+		SccAuxPath0 = http://boliev-pc:8080/tfs/personal%20work
+		SccLocalPath0 = joker.WebUI
+		SccProvider0 = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccProjectUniqueName1 = Joker.WebUI.Tests\\Joker.WebUI.Tests.csproj
+		SccProjectName1 = Joker.WebUI.Tests
+		SccAuxPath1 = http://boliev-pc:8080/tfs/personal%20work
+		SccLocalPath1 = Joker.WebUI.Tests
+		SccProvider1 = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccProjectUniqueName2 = Joker.Domain\\Joker.Domain.csproj
+		SccProjectName2 = Joker.Domain
+		SccAuxPath2 = http://boliev-pc:8080/tfs/personal%20work
+		SccLocalPath2 = Joker.Domain
+		SccProvider2 = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccProjectUniqueName3 = Joker.Domain.Tests\\Joker.Domain.Tests.csproj
+		SccProjectName3 = Joker.Domain.Tests
+		SccAuxPath3 = http://boliev-pc:8080/tfs/personal%20work
+		SccLocalPath3 = Joker.Domain.Tests
+		SccProvider3 = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{28934825-861F-46A9-93E4-7FFE28BD2015}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28934825-861F-46A9-93E4-7FFE28BD2015}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28934825-861F-46A9-93E4-7FFE28BD2015}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28934825-861F-46A9-93E4-7FFE28BD2015}.Release|Any CPU.Build.0 = Release|Any CPU
+		{67F750F4-E09C-4CD0-BDE5-8C529915B6E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{67F750F4-E09C-4CD0-BDE5-8C529915B6E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{67F750F4-E09C-4CD0-BDE5-8C529915B6E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{67F750F4-E09C-4CD0-BDE5-8C529915B6E4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0D0DE00A-26D2-483D-B321-AD24EDCD0BC5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D0DE00A-26D2-483D-B321-AD24EDCD0BC5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D0DE00A-26D2-483D-B321-AD24EDCD0BC5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D0DE00A-26D2-483D-B321-AD24EDCD0BC5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0226FCBB-900F-4FBF-A1FA-C5E7BE0056DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0226FCBB-900F-4FBF-A1FA-C5E7BE0056DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0226FCBB-900F-4FBF-A1FA-C5E7BE0056DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0226FCBB-900F-4FBF-A1FA-C5E7BE0056DC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

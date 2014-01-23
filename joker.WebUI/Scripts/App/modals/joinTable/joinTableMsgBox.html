@@ -1,0 +1,20 @@
+﻿
+<div class="messageBox">
+    <div class="modal-header">
+        <h3 data-bind="html: title"></h3>
+    </div>
+    <div class="modal-body">
+        <p class="message" data-bind="html: message"></p>
+        <div>
+            <label>Password: </label> 
+            <input type="text" data-bind="value: password, valueUpdate: 'keyup'"/>
+        </div>
+    </div>
+    <div class="modal-footer">
+        <button class="btn btn-primary" data-bind="click: function () { selectOption('Ok') }, css: okBtnCss">Ok</button>
+
+        <!-- ko foreach: options -->
+        <button class="btn" data-bind="click: function () { $parent.selectOption($data) }, html: $data"></button>
+        <!-- /ko -->
+    </div>
+</div>

@@ -1,0 +1,17 @@
+C:\Users\Boliev\Documents\Source Code\Joker-App\Joker.Domain.Tests\bin\Debug\Joker.Domain.Tests.dll
+C:\Users\Boliev\Documents\Source Code\Joker-App\Joker.Domain.Tests\bin\Debug\Joker.Domain.Tests.pdb
+C:\Users\Boliev\Documents\Source Code\Joker-App\Joker.Domain.Tests\bin\Debug\Joker.Domain.dll
+C:\Users\Boliev\Documents\Source Code\Joker-App\Joker.Domain.Tests\bin\Debug\Microsoft.Web.Infrastructure.dll
+C:\Users\Boliev\Documents\Source Code\Joker-App\Joker.Domain.Tests\bin\Debug\Moq.dll
+C:\Users\Boliev\Documents\Source Code\Joker-App\Joker.Domain.Tests\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Boliev\Documents\Source Code\Joker-App\Joker.Domain.Tests\bin\Debug\Ninject.dll
+C:\Users\Boliev\Documents\Source Code\Joker-App\Joker.Domain.Tests\bin\Debug\nunit.framework.dll
+C:\Users\Boliev\Documents\Source Code\Joker-App\Joker.Domain.Tests\bin\Debug\Owin.dll
+C:\Users\Boliev\Documents\Source Code\Joker-App\Joker.Domain.Tests\bin\Debug\Joker.Domain.pdb
+C:\Users\Boliev\Documents\Source Code\Joker-App\Joker.Domain.Tests\bin\Debug\Moq.xml
+C:\Users\Boliev\Documents\Source Code\Joker-App\Joker.Domain.Tests\bin\Debug\Ninject.pdb
+C:\Users\Boliev\Documents\Source Code\Joker-App\Joker.Domain.Tests\bin\Debug\Ninject.xml
+C:\Users\Boliev\Documents\Source Code\Joker-App\Joker.Domain.Tests\bin\Debug\nunit.framework.xml
+C:\Users\Boliev\Documents\Source Code\Joker-App\Joker.Domain.Tests\obj\Debug\Joker.Domain.Tests.csprojResolveAssemblyReference.cache
+C:\Users\Boliev\Documents\Source Code\Joker-App\Joker.Domain.Tests\obj\Debug\Joker.Domain.Tests.dll
+C:\Users\Boliev\Documents\Source Code\Joker-App\Joker.Domain.Tests\obj\Debug\Joker.Domain.Tests.pdb

@@ -1,0 +1,52 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+  "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+    <title>Jasmine Spec Runner</title>
+    <script type="text/javascript" src="file:///C:/Users/Boliev/Documents/Source%20Code/Joker-App/joker.WebUI/App/tests/libs/require.js"></script>
+<link rel="stylesheet" type="text/css" href="file:///C:/Users/Boliev/AppData/Local/Microsoft/VisualStudio/11.0/Extensions/nasnsb22.nrt/TestFiles/jasmine/jasmine.css"/>
+<script type="text/javascript" src="file:///C:/Users/Boliev/AppData/Local/Microsoft/VisualStudio/11.0/Extensions/nasnsb22.nrt/TestFiles/jasmine/jasmine.js"></script>
+<script type="text/javascript" src="file:///C:/Users/Boliev/AppData/Local/Microsoft/VisualStudio/11.0/Extensions/nasnsb22.nrt/TestFiles/jasmine/jasmine-html.js"></script>
+<link rel="shortcut icon" type="image/png" href="file:///C:/Users/Boliev/AppData/Local/Microsoft/VisualStudio/11.0/Extensions/nasnsb22.nrt/TestFiles/jasmine/jasmine_favicon.png"/>
+<script type="text/javascript" src="file:///C:/Users/Boliev/AppData/Local/Microsoft/VisualStudio/11.0/Extensions/nasnsb22.nrt/TestFiles/jasmine/jasmine-ddescribe-iit.js"></script>
+
+    
+    
+    <script type="text/javascript" src="file:///C:/Users/Boliev/Documents/Source%20Code/Joker-App/joker.WebUI/App/tests/libs/jasmine.async.js"></script>
+<script type="text/javascript" src="file:///C:/Users/Boliev/Documents/Source%20Code/Joker-App/joker.WebUI/Scripts/jquery-1.9.1.js"></script>
+
+    <script type="text/javascript" src="file:///C:/Users/Boliev/Documents/Source%20Code/Joker-App/joker.WebUI/App/tests/all.tests.jasmine.js"></script>
+
+    <script type="text/javascript">      
+        (function () {
+            var jasmineEnv = jasmine.getEnv();
+            jasmineEnv.updateInterval = 1000;
+
+            var htmlReporter = new jasmine.HtmlReporter();
+
+            jasmineEnv.addReporter(htmlReporter);
+
+            jasmineEnv.specFilter = function (spec) {
+                return htmlReporter.specFilter(spec);
+            };
+
+            if (ddescribeIitSupport) {
+                ddescribeIitSupport.patch(jasmineEnv);
+            }
+
+            var currentWindowOnload = window.onload;
+
+            window.onload = function () {
+                if (currentWindowOnload) {
+                    currentWindowOnload();
+                }
+
+                jasmineEnv.execute();
+            };
+
+        })();
+    </script>
+</head>
+<body>
+</body>
+</html>

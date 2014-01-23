@@ -1,0 +1,1 @@
+﻿<%@ Application Codebehind="Global.asax.cs" Inherits="Joker.WebUI.MvcApplication" Language="C#" %>

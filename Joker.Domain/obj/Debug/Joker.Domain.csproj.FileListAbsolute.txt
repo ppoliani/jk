@@ -1,0 +1,5 @@
+C:\Users\Boliev\Documents\Source Code\Joker-App\Joker.Domain\bin\Debug\Joker.Domain.dll.config
+C:\Users\Boliev\Documents\Source Code\Joker-App\Joker.Domain\bin\Debug\Joker.Domain.dll
+C:\Users\Boliev\Documents\Source Code\Joker-App\Joker.Domain\bin\Debug\Joker.Domain.pdb
+C:\Users\Boliev\Documents\Source Code\Joker-App\Joker.Domain\obj\Debug\Joker.Domain.dll
+C:\Users\Boliev\Documents\Source Code\Joker-App\Joker.Domain\obj\Debug\Joker.Domain.pdb

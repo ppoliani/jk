@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>Knockout-DelegatedEvents</id>
+    <version>0.1.1</version>
+    <title>Knockout-DelegatedEvents</title>
+    <authors>Ryan Niemeyer</authors>
+    <owners>Ryan Niemeyer</owners>
+    <licenseUrl>http://www.opensource.org/licenses/mit-license.php</licenseUrl>
+    <projectUrl>https://github.com/rniemeyer/knockout-delegatedEvents</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>A simple and flexible plugin to do declarative event delegation in Knockout.js</description>
+    <summary>A simple and flexible plugin to do declarative event delegation in Knockout.js</summary>
+  </metadata>
+</package>
